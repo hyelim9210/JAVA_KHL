@@ -1,0 +1,14 @@
+git2020 폴더 만듦
+우클릭 - git bash here
+이제부터 cmd? 까만 창 쓰는 명령
+git init
+>> .git 라는 숨김파일 생김. 이게 바로 인덱스역할을 한다. 내가 앞으로 할 작업의 이력이나 행위를 기억해줌. 기억하고 있다가 커밋을 하거나 애드를 하게 되면 반영해주기도 하고 지워주기도한다. 로컬저장소 안에 경로…?믱믱
+git init으로 초기화 한 상태
+git remote add origin https://github.com/hyelim9210/JAVA_KHL.git
+이번에 만든 repository 이름 : JAVA_KHL
+hyelim9210/JAVA_KHL
+git remote -v
+결과
+origin  https://github.com/hyelim9210/JAVA_KHL.git (fetch)
+origin  https://github.com/hyelim9210/JAVA_KHL.git (push)
+연결 성공한 것이다.
